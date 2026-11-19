@@ -1,0 +1,72 @@
+{
+  "checkpointed": {
+    "completed": true,
+    "context_sha256": "2a2f8b6ede6dd5eb3b6484b69ab4d6dd127b13de242b5ba4a83871d0ac9298e5",
+    "corrections_used": 0,
+    "current_state": "done",
+    "events": 20,
+    "execution_id": "golden-ckpt",
+    "file": "checkpointed.jsonl",
+    "final_state": "done",
+    "steps_used": 4,
+    "tokens_used": 60,
+    "tool_calls_used": 0,
+    "trace_sha256": "fdbfbe4848a53149a18d2dd15aa334ad6f51be6c3f96defaf2aff878658969c8"
+  },
+  "completed": {
+    "completed": true,
+    "context_sha256": "3efaf5f66ff53ce70f7763b83b1a35ba00ac6bd96373977160b87615864b65c1",
+    "corrections_used": 0,
+    "current_state": "done",
+    "events": 15,
+    "execution_id": "golden-completed",
+    "file": "completed.jsonl",
+    "final_state": "done",
+    "steps_used": 3,
+    "tokens_used": 60,
+    "tool_calls_used": 1,
+    "trace_sha256": "63f51ea4cd962aeb751553aeb7d99b5b77f2539bdb58b5f6b8eaa33ae5bd4cb6"
+  },
+  "escalated": {
+    "completed": true,
+    "context_sha256": "ae9d2ee4c0790e445c18f816916fa719870879a31f31d7d817d6b5a848d7be27",
+    "corrections_used": 2,
+    "current_state": "esc",
+    "events": 8,
+    "execution_id": "golden-escalated",
+    "file": "escalated.jsonl",
+    "final_state": "esc",
+    "steps_used": 1,
+    "tokens_used": 90,
+    "tool_calls_used": 0,
+    "trace_sha256": "da2523889a8ebef0d49ad6ec3efe7884a0b296d88cf9d4dc3ef7f02cc2c53729"
+  },
+  "interrupted": {
+    "completed": false,
+    "context_sha256": "3a664f39ca71078088ca049a7008da9d6be820238b260729e50585cd178cdebb",
+    "corrections_used": 0,
+    "current_state": "b",
+    "events": 9,
+    "execution_id": "golden-completed",
+    "file": "interrupted.jsonl",
+    "final_state": null,
+    "steps_used": 2,
+    "tokens_used": 30,
+    "tool_calls_used": 1,
+    "trace_sha256": "a0813464aa2227a0de5cb03cb7862cc84d92aa0a33701743a25a4584a6006a3d"
+  },
+  "paused_resumed": {
+    "completed": true,
+    "context_sha256": "3efaf5f66ff53ce70f7763b83b1a35ba00ac6bd96373977160b87615864b65c1",
+    "corrections_used": 0,
+    "current_state": "done",
+    "events": 17,
+    "execution_id": "golden-paused",
+    "file": "paused_resumed.jsonl",
+    "final_state": "done",
+    "steps_used": 3,
+    "tokens_used": 60,
+    "tool_calls_used": 1,
+    "trace_sha256": "3b5b5fab9636797804a007fdd889e7af0ee9457c1c12d8c0ff2598434b33f767"
+  }
+}

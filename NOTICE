@@ -1,0 +1,10 @@
+CLASP — Control Layer for Agent Systems and Policy
+
+Copyright 2026 Symbolic Languages LLC
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+CLASP is provided on an "AS IS" basis, without warranties or
+conditions of any kind. Its guarantees cover runner-mediated paths
+only and are scoped in docs/CLAIMS.md, which is the authoritative
+claims register for this software.
